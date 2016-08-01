@@ -26,16 +26,8 @@ window.onload = function() {
         spr_small_explosion: [0, 0]
     },0,0);
     //bricks
-    Crafty.sprite(8,8, 'img/brick-wall.png', {
+    Crafty.sprite( 8, 8, 'img/brick-wall.png', {
         spr_bricks: [0,0]
-    });
-    //trees
-    Crafty.sprite(16,16, 'img/trees.png', {
-        spr_trees: [0,0]
-    });
-    //base
-    Crafty.sprite(32,32, 'img/base.png', {
-        spr_base: [0,0]
     });
     //steal
     Crafty.sprite(16,16, 'img/steel-wall.png', {
